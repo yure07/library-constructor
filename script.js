@@ -30,7 +30,7 @@ class Library{
 
     giveBackBook(nameBook){
         books.filter(book =>{
-            if(book.title === nameBook) book.disponibility = true
+            if(book.title === nameBook && book.disponibility === false) book.disponibility = true
         })
     }
 }
