@@ -8,7 +8,7 @@ class Book {
     disponibility
 }
 
-class Library extends Book{
+class Library{
     name
     address
     phone
